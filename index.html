@@ -20,7 +20,7 @@
     </header>
 
     <section class="sec1">
-        
+        <h3>What we offer</h3>
 
         <p>Lorem ipsum <i>dolor sit amet</i>, consectetur adipisicing elit. Hic, dicta eos maiores cupiditate facilis deleniti optio necessitatibus fugit ad eveniet, praesentium quae, est sunt unde eum assumenda iure officiis voluptates quas obcaecati tenetur illo. Harum vel porro autem <b>facilis accusamus</b>!
         </p>
@@ -29,6 +29,7 @@
     </section>
 <hr>
 
+<!-- In this section I used orderd & unorderd list tags. -->
     <section class="sec2">
         <h2>Our Services</h2>
         <ul>
@@ -46,24 +47,49 @@
         </ol>
     </section>
 
+<!-- Contact us section goes here.. -->
     <section sec3>
         <h2>Contact Us</h2>
         <form action="" method="">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit">SEND</button>
+            <label for="text">Name:</label>
+            <input type="text" name="text" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Type your email">
+            
+            <label for="tel">Phone:</label>
+            <input type="tel" name="tel">
+
+           <label for="opt">Lorem ipsum dolor sit amet consectetur?</label>
+            <select name="opt" id="opt">
+                <option value="opt">Option 1</option>
+                <option value="opt">Option 2</option>
+                <option value="opt">Option 3</option>
+            </select>
+
+            <label for="comment">Lorem ipsum dolor sit amet?
+            <textarea name="comment" cols="30" rows="10" placeholder="Make Comments..."></textarea>
+
+            <label for="check">
+            <input type="checkbox" id="check">Lorem ipsum dolor sit amet?
+            </label>
+
+            <button type="submit">Send</button>
         </form>
     </section>
 <hr>
-<blockquote>
-    <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, veritatis."</p>
-    <cite>Dr Fugit Voluptas</cite>
-</blockquote>
+    <!--<iframe></iframe>
+    <video src=""></video>
+    <audio src=""></audio>
+    -->
+    
+    <blockquote>
+        <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, veritatis."</p>
+        <cite>Dr Fugit Voluptas</cite>
+    </blockquote>
 
-<footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-</footer>
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
 </body>
 </html>
